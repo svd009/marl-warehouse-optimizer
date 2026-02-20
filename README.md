@@ -1,19 +1,30 @@
 # marl-warehouse-optimizer
 Multi-agent RL for warehouse optimization using RLlib, Gymnasium, and GCP Vertex AI
 
-# Multi-Agent Reinforcement Learning for Warehouse Optimization 🏭🤖
+# Multi-Agent Reinforcement Learning for Warehouse Optimization
 
-**Scalable MARL system optimizing order fulfillment, inventory placement, and robot coordination in dynamic warehouses using RLlib + PPO.**
+Scalable MARL system for optimizing order fulfillment, robot coordination, and inventory management in dynamic warehouses.
 
-[![Status](https://img.shields.io/badge/status-in%20progress-blue)](https://github.com/svd009/marl-warehouse-optimizer)
-[![RLlib](https://img.shields.io/badge/RLlib-2.9-green)](https://ray.io/rllib)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.1-orange)](https://pytorch.org)
+## Overview
 
-## 🎯 **Problem**
-Modern warehouses face complex coordination challenges:
-- **Robot collision avoidance** during order picking
-- **Dynamic inventory restocking**
-- **Order batching optimization**
-- **Scalability** to 50+ agents
+Modern warehouses require intelligent coordination between multiple autonomous robots for:
+- Order picking and batching optimization
+- Collision-free navigation
+- Dynamic inventory restocking
+- Scalability to 50+ heterogeneous agents
 
-## 🛠️ **Tech Stack**
+## Tech Stack
+- RLlib (Ray) for multi-agent training
+- Gymnasium custom warehouse environment
+- PyTorch for policy networks
+- PPO and QMIX algorithms
+- GCP Vertex AI for distributed training
+- MLflow for experiment tracking
+
+## Current Progress
+- Custom Gymnasium warehouse environment (complete)
+- Single-agent PPO baseline (complete) 
+- Multi-agent RLlib configuration (in progress)
+- GCP Vertex AI pipeline (planned)
+
+## Repository Structure
