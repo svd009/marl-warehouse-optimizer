@@ -47,39 +47,3 @@ marl-warehouse-optimizer/
 ```
 
 <!-- CONFIRM: this only reflects the files I was able to access (train_iac.py, eval_baseline.py, and their imports). If there are more files under src/ (for example an RLlib training script), paste them or the full file list and I will add them. -->
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.x
-- PyTorch
-- Gymnasium
-
-<!-- CONFIRM: exact Python version and whether there is a requirements.txt or environment file in the repo. I did not find one among the files I could access. -->
-
-### Train
-
-Independent Actor-Critic baseline (4 agents, custom warehouse environment):
-
-```bash
-python train_iac.py
-```
-
-This trains 4 agents for 50 episodes by default and logs results to `logs/iac.csv`.
-
-### Evaluate baseline
-
-```bash
-python eval_baseline.py
-```
-
-Runs the manager/worker baseline for 10 episodes and reports average reward.
-
-## License
-
-<!-- CONFIRM: license, if any -->
-
-## Author
-
-**Suujay** - [github.com/svd009](https://github.com/svd009)
